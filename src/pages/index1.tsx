@@ -2,10 +2,12 @@ import Link from 'next/link'
 
 function HomePage() {
    return (
-      <>
-         <p>Welcome to Next.js!</p>
-         <Link href="/posts/first"><a>First Post</a></Link>
-      </>	    
+      <div>
+         <h1>Welcome to Next.js!</h1>
+         <div>
+            <Link href="/posts/first">First Post</Link>
+         </div>
+      </div>	    
    )
 }
 

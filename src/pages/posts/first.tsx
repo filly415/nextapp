@@ -7,7 +7,7 @@ export default function First() {
                 My First Post
             </h1>
             <h3>
-                <Link href="/">
+                <Link href="/index1">
                     Home
                 </Link>
             </h3>
